@@ -48,6 +48,8 @@ Deep learning, weather clustering
 
 
 
-![Results from evaluating the our proposed models for 10 and 30
+![Text](https://github.com/Giwrgosyea/Weather-Analysis/blob/master/DEEP%20LEARNING%20FOR%20CLUSTERING%20OF%20WEATHER%20AND%20ATMOSPHERIC%20DISPERSION%20FEATURES/DNNs%20Results.png)
+
+Results from evaluating the our proposed models for 10 and 30
 simulated locations reporting accuracy as a function of the dimensionality
-reduction configuration and the choice of the proposed cluster descriptor](https://github.com/Giwrgosyea/Weather-Analysis/blob/master/DEEP%20LEARNING%20FOR%20CLUSTERING%20OF%20WEATHER%20AND%20ATMOSPHERIC%20DISPERSION%20FEATURES/DNNs%20Results.png)
+reduction configuration and the choice of the proposed cluster descriptor 
