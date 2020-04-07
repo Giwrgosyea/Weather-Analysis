@@ -14,21 +14,21 @@ export TIMESLOT=<2ημερα / 6 ωρες> = 8 πριν τρεξεις bash wrf.
 7.wrf -> bash wrf.sh gets the previous netcdf files and runs.. edw kanw mv descriptor sto nc
 8.tgiorgios> cd wrfhy/ mv wrfvol/wrfouts/* wrfout/
 9 .hysplit and run for i in `ls wrfout`;do make clean convert_f conc_f WRF_IN=/hysplit/wrfout/$i;done
-9,5 apo hysplit cd trunk/exec/ 79... ---> mkdir ola ayta exp1
+9,5 apo hysplit cd trunk/exec/ 79... ---> mkdir all in one folder exp1
 
 
 
 clusters_file put kmeans.zip from step 3.5 , model file= full path lstm model , dispersion dir= exp1/ full 
 
 11.cp nc2numpy array copy sto file px 87-24-41 kai entoli sto mail
-pare to nc2numpyarray apo to kmeans_disp
+take nc2numpyarray from kmeans_disp
 
 PATH: /workspace/wrfhy/trunk/exec/exp2/nc2numpyarray.py
 
 ls . | xargs -n4 -P4 python nc2numpyarray.py
- ---> sto transform.sh
+ ---> in transform.sh
 
-12. tgiorgos/final_eval .. (change files in finaleval: expX,model,cluster (an den  to exeis kanei apo prin))
+12. tgiorgos/final_eval .. (change files in finaleval: expX,model,cluster (if not from before))
 
 before
 apo to wrf svinw splits and wrfouts kai apo to nc sto tgiorgos
